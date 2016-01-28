@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tee Proov</string>
+    <string name="action_settings">Seaded</string>
+    <string name="add_emp">Lisa teeproov</string>
+    <string name="update_emp">Muuda proovi andmeid</string>
+    <string name="name">Proovi nimi</string>
+    <string name="dob">Proovi võtmise kuupäev</string>
+    <string name="prooviNr">Proovi nr</string>
+    <string name="update">Muuda</string>
+    <string name="add">Lisa</string>
+    <string name="reset">Tühjenda</string>
+    <string name="cancel">Loobu</string>
+    <string name="tprVotuKoht">Proovi võtmise koht</string>
+
+</resources>

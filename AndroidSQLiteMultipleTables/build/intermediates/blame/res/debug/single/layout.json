@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_tpr.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\fragment_add_tpr.xml"
+    },
+    {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_emp_list.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\fragment_emp_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

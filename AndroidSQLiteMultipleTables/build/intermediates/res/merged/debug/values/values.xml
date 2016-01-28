@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_bg">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="view_divider_color">#BABABA</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Seaded</string>
+    <string name="add">Lisa</string>
+    <string name="add_emp">Lisa teeproov</string>
+    <string name="app_name">Tee Proov</string>
+    <string name="cancel">Loobu</string>
+    <string name="dob">Proovi võtmise kuupäev</string>
+    <string name="name">Proovi nimi</string>
+    <string name="prooviNr">Proovi nr</string>
+    <string name="reset">Tühjenda</string>
+    <string name="tprVotuKoht">Proovi võtmise koht</string>
+    <string name="update">Muuda</string>
+    <string name="update_emp">Muuda proovi andmeid</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
