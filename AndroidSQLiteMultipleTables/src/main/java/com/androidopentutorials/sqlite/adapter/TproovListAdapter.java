@@ -25,7 +25,7 @@ public class TproovListAdapter extends ArrayAdapter<TeeProov> {
 			"yyyy-MM-dd", Locale.ENGLISH);
 	
 	public TproovListAdapter(Context context, List<TeeProov> teeProovs) {
-		super(context, R.layout.list_item, teeProovs);
+		super(context, R.layout.list_item_teeproov, teeProovs);
 		this.context = context;
 		this.teeProovs = teeProovs;
 	}
@@ -38,7 +38,7 @@ public class TproovListAdapter extends ArrayAdapter<TeeProov> {
 		//
 		TextView tprVotukohtTxt;
 
-		TextView trpObjNameTxt;
+		TextView tprObjNameTxt;
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class TproovListAdapter extends ArrayAdapter<TeeProov> {
 		if (convertView == null) {
 			LayoutInflater inflater = (LayoutInflater) context
 					.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
-			convertView = inflater.inflate(R.layout.list_item, null);
+			convertView = inflater.inflate(R.layout.list_item_teeproov, null);
 			holder = new ViewHolder();
 			
 			holder.tprIdTxt = (TextView) convertView
@@ -77,7 +77,7 @@ public class TproovListAdapter extends ArrayAdapter<TeeProov> {
 			holder.tprVotukohtTxt = (TextView) convertView
 					.findViewById(R.id.etxt_tprVotuKoht);
 
-			holder.trpObjNameTxt = (TextView) convertView
+			holder.tprObjNameTxt = (TextView) convertView
 					.findViewById(R.id.txt_tpr_obj);
 			
 			convertView.setTag(holder);
@@ -91,7 +91,7 @@ public class TproovListAdapter extends ArrayAdapter<TeeProov> {
 		//
 		holder.tprVotukohtTxt.setText(teeProov.getPrVotuKoht());
 
-		holder.trpObjNameTxt.setText(teeProov.getTeeObjekt().getName());
+		holder.tprObjNameTxt.setText(teeProov.getTeeObjekt().getName());
 		
 		holder.tprKPTxt.setText(formatter.format(teeProov.getProoviKp()));
 		

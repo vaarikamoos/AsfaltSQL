@@ -29,13 +29,18 @@ public class MainActivity extends FragmentActivity implements
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
 
+        // see ei ole ajutine
 		TeeObjektDAO tobjDAO = new TeeObjektDAO(this);
+
+		// TODO ajutine, salvestamise jaoks tuleks teha eraldi nupp
+        // või siis kutsuda rakendusest väljumisel
 		tobjDAO.salvestaXlsMalukaardile();
+
 		//Initially loads departments
 		if(tobjDAO.getTeeObjektid().size() <= 0)
 			tobjDAO.loadTeeObjektid();
 
-		
+		// region ekraani keeramine
 		/*
 		 * This is called when orientation is changed.
 		 */
@@ -61,6 +66,7 @@ public class MainActivity extends FragmentActivity implements
 			setFragmentTitle(R.string.app_name);
 			switchContent(teeProovListFragment, TprListFragment.ARG_ITEM_ID);
 		}
+        // endregion
 	}
 
 	@Override

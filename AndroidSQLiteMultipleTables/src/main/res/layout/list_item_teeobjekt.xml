@@ -11,48 +11,34 @@
         android:layout_height="wrap_content" >
 
 
-        <TextView
-            android:id="@+id/txt_tpr_obj"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="6dp"
-            android:textColor="#0000FF" />
 
         <TextView
-            android:id="@+id/txt_tpr_id"
+            android:id="@+id/txt_tobj_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_tpr_obj"
             android:padding="6dp" />
 
         <TextView
-            android:id="@+id/txt_tpr_koht"
+            android:id="@+id/txt_tobj_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_tpr_id"
             android:padding="6dp" />
 
         <TextView
-            android:id="@+id/txt_tpr_kp"
+            android:id="@+id/txt_tobj_objektiNimetus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_tpr_koht"
             android:padding="6dp" />
 
         <TextView
-            android:id="@+id/txt_tpr_nr"
+            android:id="@+id/txt_tobj_teeNimetus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_tpr_kp"
             android:padding="6dp" />
-
-        <TextView
-            android:id="@+id/etxt_tprVotuKoht"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_tpr_nr"
-            android:padding="6dp" />
-
 
     </RelativeLayout>
 
