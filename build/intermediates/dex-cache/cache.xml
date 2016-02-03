@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\instantRunSlicer\debug\jars\1\1a\dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53242a547afe6df0797a3605596ff2a72d8fa136">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_a221c49db079a248cca17e8e668eea93f8969109\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_slice.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="76e2a3c98d184623ebb9c12f35d5b8cc7a58689f">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\dex\debug\folders\1000\5\main_slice_263ed6beb992ee66a18353be8ee0c9d83c64f785\classes.dex" />
+    </item>
+
+</items>
