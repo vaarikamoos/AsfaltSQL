@@ -4,6 +4,7 @@
     <string name="app_name">Tee Proov</string>
     <string name="action_settings">Seaded</string>
     <string name="add_emp">Lisa teeproov</string>
+    <string name="add_tobj">Lisa uus objekt</string>
     <string name="update_emp">Muuda proovi andmeid</string>
     <string name="name">Proovi nimi</string>
     <string name="dob">Proovi võtmise kuupäev</string>

@@ -3,4 +3,5 @@
     <color name="transparent">#00000000</color>
     <color name="list_item_bg">#ffffff</color>
     <color name="view_divider_color">#BABABA</color>
+    <color name="holo_light_primary">#ac7878</color>
 </resources>

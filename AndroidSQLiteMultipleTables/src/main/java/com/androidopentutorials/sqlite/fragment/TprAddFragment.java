@@ -226,7 +226,7 @@ public class TprAddFragment extends Fragment implements OnClickListener {
 			if (activityWeakRef.get() != null
 					&& !activityWeakRef.get().isFinishing()) {
 				if (result != -1)
-					Toast.makeText(activityWeakRef.get(), "TeeProov Saved",
+					Toast.makeText(activityWeakRef.get(), "Tee proov on salvestatud ",
 							Toast.LENGTH_LONG).show();
 			}
 		}

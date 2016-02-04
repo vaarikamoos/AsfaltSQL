@@ -4,12 +4,20 @@
         "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\list_item_teeproov.xml"
     },
     {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\activity_esileht.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\activity_esileht.xml"
+    },
+    {
         "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_tpr.xml",
         "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\fragment_add_tpr.xml"
     },
     {
         "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_teeobjekt.xml",
         "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\list_item_teeobjekt.xml"
+    },
+    {
+        "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uus_objekt.xml",
+        "source": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\src\\main\\res\\layout\\activity_uus_objekt.xml"
     },
     {
         "merged": "C:\\Users\\yogi\\Documents\\kool\\AndroidStudio\\AsfaltSQL\\AndroidSQLiteMultipleTables\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_emp_list.xml",

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="holo_light_primary">#ac7878</color>
     <color name="list_item_bg">#ffffff</color>
     <color name="transparent">#00000000</color>
     <color name="view_divider_color">#BABABA</color>
@@ -8,6 +9,7 @@
     <string name="action_settings">Seaded</string>
     <string name="add">Lisa</string>
     <string name="add_emp">Lisa teeproov</string>
+    <string name="add_tobj">Lisa uus objekt</string>
     <string name="app_name">Tee Proov</string>
     <string name="cancel">Loobu</string>
     <string name="dob">Proovi võtmise kuupäev</string>

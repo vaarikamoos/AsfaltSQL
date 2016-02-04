@@ -2,18 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\instantRunSlicer\debug\jars\1\1a\dependencies.jar"
+        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\incremental-classes\debug\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="53242a547afe6df0797a3605596ff2a72d8fa136">
-        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_a221c49db079a248cca17e8e668eea93f8969109\classes.dex" />
+        sha1="8dae65433060b595d815dd4de9995b80c88cafee">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\pre-dexed\debug\classes_492739b47898d16e5ccba910eb9b499ade2f0acb.jar" />
     </item>
     <item
-        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_slice.jar"
+        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\libs\android-support-v4.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="76e2a3c98d184623ebb9c12f35d5b8cc7a58689f">
-        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\transforms\dex\debug\folders\1000\5\main_slice_263ed6beb992ee66a18353be8ee0c9d83c64f785\classes.dex" />
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\pre-dexed\debug\android-support-v4_adca0b2d8deb36e644822bbd599fde8d9a22d07c.jar" />
+    </item>
+    <item
+        jar="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="de6508397b1c1cd8ef4eca25792e164cb071d3db">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\pre-dexed\debug\instant-run_073d808369509cd206c0d4a0262776e5dfdf884f.jar" />
+    </item>
+    <item
+        jar="C:\Users\yogi\.gradle\caches\modules-2\files-2.1\net.sourceforge.jexcelapi\jxl\2.6.12\7faf62e0697f7a88954622dfe8c8de33ed142ac7\jxl-2.6.12.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\pre-dexed\debug\jxl-2.6.12_17509b956214332888e6afc30ec8b0ef1723af3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\yogi\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.14\3b254c872b95141751f414e353a25c2ac261b51\log4j-1.2.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="03b254c872b95141751f414e353a25c2ac261b51">
+        <dex dex="C:\Users\yogi\Documents\kool\AndroidStudio\AsfaltSQL\AndroidSQLiteMultipleTables\build\intermediates\pre-dexed\debug\log4j-1.2.14_d3b1f32082e63a99b6ff5463e536a4e39c1376dc.jar" />
     </item>
 
 </items>

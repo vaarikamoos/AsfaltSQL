@@ -91,7 +91,8 @@ public class TeeObjektDAO extends TeeProovDBDAO {
 	}
 
 
-	// siit alates proovin exceli värki
+    //// TODO: 04.02.2016 Excel
+    // siit alates proovin exceli värki
 	public void salvestaXlsMalukaardile(){
 		Cursor cursor = database.query(DataBaseHelper.TEEPROOV_TABLE,
 				new String[] { DataBaseHelper.ID_COLUMN,

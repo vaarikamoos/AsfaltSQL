@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/etxt_ojbNimetus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Objekti nimetus"
+            android:nextFocusDown="@+id/etxt_teeNimetus"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/etxt_teeNimetus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_ojbNimetus"
+            android:hint="Tee nimetus"
+            android:nextFocusDown="@+id/etxt_teeNumber"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/etxt_teeNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_teeNimetus"
+            android:hint="Tee number"
+            android:inputType="numberDecimal"
+            android:nextFocusDown="@+id/etxt_algusKm"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/etxt_algusKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_teeNumber"
+            android:hint="Algus km"
+            android:inputType="numberDecimal"
+            android:nextFocusDown="@+id/etxt_loppKm"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/etxt_loppKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_algusKm"
+            android:hint="Lõpp km"
+            android:inputType="numberDecimal"
+            android:singleLine="true"/>
+
+
+        <LinearLayout
+            android:id="@+id/layout_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_loppKm"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/button_lisa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/add"/>
+
+            <Button
+                android:id="@+id/button_tyhjenda"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.androidopentutorials.sqlite.UusObjektActivity">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+    <!--android:text="Uhhuuu"-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="113dp"/>-->
+    <!--</RelativeLayout>-->

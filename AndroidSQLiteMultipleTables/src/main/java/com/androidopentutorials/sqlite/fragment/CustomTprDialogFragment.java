@@ -52,9 +52,9 @@ public class CustomTprDialogFragment extends DialogFragment {
 	 * Callback used to communicate with TprListFragment to notify the list adapter.
 	 * MainActivity implements this interface and communicates with TprListFragment.
 	 */
-	public interface CustomEmpDialogFragmentListener {
-		void onFinishDialog();
-	}
+    public interface CustomEmpDialogFragmentListener {
+        void onFinishDialog();
+    }
 
 	public CustomTprDialogFragment() {
 
