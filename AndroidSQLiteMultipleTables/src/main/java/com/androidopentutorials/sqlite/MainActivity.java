@@ -36,9 +36,13 @@ public class MainActivity extends FragmentActivity implements
         // või siis kutsuda rakendusest väljumisel
 		tobjDAO.salvestaXlsMalukaardile();
 
-		//Initially loads departments
-		if(tobjDAO.getTeeObjektid().size() <= 0)
-			tobjDAO.loadTeeObjektid();
+
+        //// TODO: 04.02.2016
+        //Initially loads departments
+        // see meetod teeb alguses näidisinfost objektid
+        // esialgu jätan, aga hiljem pole vaja
+//		if(tobjDAO.getTeeObjektid().size() <= 0)
+//			tobjDAO.loadTeeObjektid();
 
 		// region ekraani keeramine
 		/*
